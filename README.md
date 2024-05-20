@@ -1,4 +1,4 @@
-yarn init -y
+ls
 yarn add knex @types/knex pg
 yarn add -D @types/pg
 yarn add dotenv @types/dotenv
@@ -38,3 +38,4 @@ module.exports = {
     //...
   },
 }; -->
+
