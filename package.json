@@ -1,0 +1,56 @@
+{
+  "name": "wsp009",
+  "version": "1.0.0",
+  "description": "yarn init -y yarn add knex @types/knex pg yarn add -D @types/pg yarn add dotenv @types/dotenv  yarn add xlsx  yarn knex init -x ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./authService.test.ts",
+    "data": "psql -f ./sql/setup.sql && psql -f ./sql/seed.sql",
+    "dev": "ts-node-dev app.ts",
+    "start": "ts-node app.ts"
+  },
+  "keywords": [],
+  "author": "cc-kcc <115552496+cc-kcc@users.noreply.github.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^20.12.12",
+    "@types/node-fetch": "^2.6.11",
+    "@types/pg": "^8.11.6",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "formidable": "^3.5.1",
+    "grant": "^5.4.22",
+    "jsonfile": "^6.1.0",
+    "knex": "^3.1.0",
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.11.5",
+    "redis": "^4.6.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0",
+    "@types/formidable": "^3.4.5",
+    "@types/jest": "^29.5.12",
+    "@types/jsonfile": "^6.1.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cc-kcc/carec_web_bad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cc-kcc/carec_web_bad/issues"
+  },
+  "homepage": "https://github.com/cc-kcc/carec_web_bad#readme"
+}
